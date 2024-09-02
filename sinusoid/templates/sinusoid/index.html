@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sinusoid Generator</title>
+</head>
+<body>
+    <h1>Sinusoid Generator</h1>
+    <form method="get">
+        <label for="frequency">Frequecy (Hz):</label>
+        <input type="text" id="frequency" name="frequency" value="440">
+        <br>
+        <label for="binaural">Binaural:</label>
+        <input type="checkbox" id="binaural" name="binaural" value="true">
+        <br>
+        <input type="submit" value="Generate">
+    </form>
+    <div>
+        <img src="{{ image_uri }}" alt="Sinusoid">
+    </div>
+    <div>
+        <audio controls>
+            <source src="{{ audio_uri }}" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
+
