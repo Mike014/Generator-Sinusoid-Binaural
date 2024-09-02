@@ -33,11 +33,11 @@ To run the Sinusoid Project locally, follow these steps:
 
 - Run the migrations:
 
-**python manage.py migrate**
+```python manage.py migrate```
 
 - Start the development server:
   
-**python manage.py runserver**
+```ython manage.py runserver```
 
 - Access the application: Open your web browser and navigate to `http://127.0.0.1:8000/sinusoid/`.
 
