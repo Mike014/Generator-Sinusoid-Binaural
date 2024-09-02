@@ -27,7 +27,7 @@ To run the Sinusoid Project locally, follow these steps:
 
 - Clone the repository:
 
-**git clone https://github.com/MikyMikeMusic/Django.git**
+**git clone https://github.com/Mike014/Generator-Sinusoid-Binaural.git**
 **cd your-repository**
 
 
